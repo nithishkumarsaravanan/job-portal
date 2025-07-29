@@ -1,6 +1,6 @@
 import '../css/header.css'
 import logo from '../images/logo.png'
-import Login from './Login'
+import { Link } from 'react-router-dom'
 function Header(){
 
     return(
@@ -28,6 +28,11 @@ function Header(){
             <button id="login-btn" >Login</button>
             <button id="signin-btn">Sign-Up</button>
             </div>
+
+            <Link to="/login">
+            <button id="login-btn">Login</button>
+            </Link>
+            
             </div>
             
         </div>
