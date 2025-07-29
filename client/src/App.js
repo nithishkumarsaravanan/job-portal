@@ -1,14 +1,13 @@
 import Header from "./components/Header";
-<<<<<<< HEAD
 import Index from "./components/index"
-function App() {
-  return (
-    <>
-    <Index/>
-    </>
-=======
 import Login from "./components/login";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+// function App() {
+//   return (
+//     <>
+//     <Index/>
+//     </>
+
 
 function App() {
   return (
@@ -16,7 +15,11 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="/index" element={<Index />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/sign-up" element={<h1>Sign Up Page</h1>} />
+        {/* Add more routes as needed */}
     
       </Routes>
     
@@ -27,7 +30,6 @@ function App() {
   
 
     
->>>>>>> Deepak
 
 
 

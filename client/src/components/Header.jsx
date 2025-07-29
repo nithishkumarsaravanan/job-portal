@@ -1,6 +1,8 @@
 import '../css/header.css'
 import logo from '../images/logo.png'
 import { Link } from 'react-router-dom'
+import React from 'react'
+import Index from './index'
 function Header(){
 
     return(
@@ -16,7 +18,11 @@ function Header(){
             <div className="navlist">
 
             <ul id="list-items">
-                <li>Home</li>
+                <li>
+                    <Link to="/" className='nav-link'>
+                        Home
+                    </Link>
+                </li>
                 <li>Jobs</li>
                 <li>Company</li>
                 <li>Services</li>
@@ -25,13 +31,15 @@ function Header(){
             </div>
 
             <div className="btns">
+                <Link to="/login">
             <button id="login-btn" >Login</button>
+            </Link>
             <button id="signin-btn">Sign-Up</button>
             </div>
 
-            <Link to="/login">
-            <button id="login-btn">Login</button>
-            </Link>
+            
+            {/* <button id="login-btn">Login</button> */}
+            
             
             </div>
             

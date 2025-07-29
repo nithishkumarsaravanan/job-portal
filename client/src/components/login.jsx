@@ -1,24 +1,4 @@
-function Login(){
-    return(
-        <>
-        <div className="login">
-            <h2>Login</h2>
-            <form>
-                <div>
-                    <label>Email:</label>
-                    <input type="email" />
-                </div>
-                <div>
-                    <label>Password:</label>
-                    <input type="password" />
-                </div>
-                <button type="submit">Login</button>
-            </form>
-        </div>
-        </>
-    );
-}
-export default Login;
+
 
 import React from 'react'
 import '../css/login.css'
@@ -45,7 +25,7 @@ const Login = () => {
 
             <p>Don't have an account?</p>
 
-            <a id='signuplink' href="/signin">sign up</a>
+            <a id='signuplink' href="/sign-up">sign up</a>
 
             </div>
 

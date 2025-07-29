@@ -51,18 +51,19 @@ body {
     font-size: 16px;
     line-height: 18px;
     /* font-weight:500; */
-    text-decoration: none solid rgb(18,18,36);
+    text-decoration: none !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     gap: 30px;
 
 }
-#list-items li{
+.nav-link{
     cursor: pointer;
-    color: rgba(0, 0, 0, 0.664);
+    color: rgba(0, 0, 0, 0.664) !important;
     font-weight: 400;
+    text-decoration: none !important;
 }
-#list-items li:hover{
-    color: rgb(0, 0, 0);
+.nav-link:hover{
+    color: rgb(0, 0, 0) !important;
     
     transition: 0.3s;
 }
