@@ -17,6 +17,7 @@ function Header(){
                 <li>Services</li>
             </ul>
             <button id="login-btn">Login</button>
+            <button id="signin-btn">Sign-in</button>
             </div>
             
         </div>
