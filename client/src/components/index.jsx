@@ -7,7 +7,7 @@ function index(){
             Find Your Dream Job
         </p>
         <p id="para2">
-            Browse job listings and apply with ease
+            Browse job listings and apply with ease.
         </p>
 
         </div>
