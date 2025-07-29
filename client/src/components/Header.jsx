@@ -1,5 +1,6 @@
 import '../css/header.css'
 import logo from '../images/logo.png'
+// import Login from '../components/Login'
 function Header(){
 
     return(
@@ -8,7 +9,7 @@ function Header(){
             
         <div className="header">
             <div className="logo">
-            <img id="logo"src={logo}/>
+            <img id="logo" src={logo} alt="Job Portal Logo" />
             <p id="title">Job portal</p>
             </div>
 
@@ -25,7 +26,7 @@ function Header(){
 
             <div className="btns">
             <button id="login-btn">Login</button>
-            <button id="signin-btn">Sign-in</button>
+            <button id="signin-btn">Sign-Up</button>
             </div>
             </div>
             
