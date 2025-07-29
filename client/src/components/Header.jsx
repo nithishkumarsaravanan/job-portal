@@ -1,6 +1,6 @@
 import '../css/header.css'
 import logo from '../images/logo.png'
-// import Login from '../components/Login'
+import Login from '../components/Login'
 function Header(){
 
     return(
@@ -25,7 +25,7 @@ function Header(){
             </div>
 
             <div className="btns">
-            <button id="login-btn">Login</button>
+            <button id="login-btn" >Login</button>
             <button id="signin-btn">Sign-Up</button>
             </div>
             </div>
