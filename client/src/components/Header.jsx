@@ -1,6 +1,6 @@
 import '../css/header.css'
 import logo from '../images/logo.png'
-import Login from '../components/Login'
+import Login from './Login'
 function Header(){
 
     return(
