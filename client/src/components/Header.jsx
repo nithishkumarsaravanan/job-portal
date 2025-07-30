@@ -34,10 +34,14 @@ function Header(){
                 <Link to="/login">
             <button id="login-btn" >Login</button>
             </Link>
+            <Link to="/sign-up">
             <button id="signin-btn">Sign-Up</button>
+            </Link>
+           
             </div>
 
-            
+
+                     
             {/* <button id="login-btn">Login</button> */}
             
             
@@ -48,4 +52,4 @@ function Header(){
         </>
     );
 }
-export default Header;
+export default Header;
