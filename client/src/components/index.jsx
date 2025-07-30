@@ -1,14 +1,26 @@
+import Header from "./Header";
+import '../css/index.css'
+import work from '../images/work.png'
+
 function index(){
     return(
         <>
+        <Header />
         <div className="index">
+            <div className="left">
+                <h1>Your next opportunity is waiting.</h1>
+                <p>Build your career, one click at a time.</p>
 
-        <p id="para">
-            Find Your Dream Job
-        </p>
-        <p id="para2">
-            Browse job listings and apply with ease.
-        </p>
+            </div>
+
+            <div className="right">
+                <img src={work} alt="work" />
+
+
+            </div>
+
+        
+
 
         </div>
         </>
